@@ -151,22 +151,15 @@
 }
 
 .container-informacoes {
-    position: relative;
     height: 240px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .container-informacoes div {
     width: 33%;
-    position: absolute;
     top: 0;
-}
-
-.card2 {
-    left: 343px;
-}
-
-.card3 {
-    right: 0;
 }
 
 .container-informacoes div img {
